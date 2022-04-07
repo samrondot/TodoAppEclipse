@@ -18,6 +18,7 @@ public class TodoService {
 	}
 
 	public void save(TodoItem todoItem) {
+		System.out.println("Hello");
 		todoRepo.save(todoItem);
 		
 	}
